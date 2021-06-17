@@ -1,0 +1,116 @@
+:root{
+    --c-red:#FF0077;
+
+    --c-green:rgb(0, 200, 169);
+
+    --c-blue:rgb(0, 162, 255);
+
+    --c-yellow: #FFAA00;
+
+    --c-purple: #aa00FF;
+
+    --c-aqua: #00AAAA;
+
+    --c-lime: #99BB00;
+
+    --c-orange: #FF7700;
+
+    --c-grey:#333;
+    --c-grey-h:#555;
+  }
+  
+  .Card{
+    width:7vw;
+    height:7vw;
+    font-size:30px;
+    color:white;
+    background-color:var(--c-grey);
+    border-radius:10px;
+    border: none;
+    margin-top:10px;
+    box-shadow: rgba(0,0,0,1) 0px 0px 6px;
+  }
+
+  .Card:hover{
+    font-size:30px;
+    color:white;
+    background-color:var(--c-grey-h);
+  }
+
+
+  .red{
+    background-color:var(--c-red);
+  }
+  
+  .green{
+    background-color:var(--c-green);
+  }
+  
+  .blue{
+    background-color:var(--c-blue);
+  }
+  
+  .yellow{
+    background-color:var(--c-yellow);
+  }
+
+  .purple{
+    background-color:var(--c-purple);
+  }
+  
+  .orange{
+    background-color:var(--c-orange);
+  }
+
+  .lime{
+    background-color:var(--c-lime);
+  }
+  
+  .aqua{
+    background-color:var(--c-aqua);
+  }
+
+  .red:hover{
+    background-color:var(--c-red);
+  }
+  
+  .green:hover{
+    background-color:var(--c-green);
+  }
+  
+  .blue:hover{
+    background-color:var(--c-blue);
+  }
+  
+  .yellow:hover{
+    background-color:var(--c-yellow);
+  }
+  .purple:hover{
+    background-color:var(--c-purple);
+  }
+  
+  .orange:hover{
+    background-color:var(--c-orange);
+  }
+
+  .lime:hover{
+    background-color:var(--c-lime);
+  }
+  
+  .aqua:hover{
+    background-color:var(--c-aqua);
+  }
+
+  
+  *{
+    padding:0;
+    margin:0;
+  }
+
+
+  @media (max-width:900px) {
+      .Card{
+        width:12vw;
+        height:12vw;
+      }
+  }
